@@ -18,9 +18,6 @@ const spaceMono = Space_Mono({
 
 export const metadata: Metadata = {
   title: `${portfolio.name} — Full-Stack Developer`,
-  icons: {
-    icon: '/a.svg',
-  },
   description: portfolio.bio,
   keywords: ["full-stack developer", "CS undergrad", "KIIT", "React", "Spring Boot", "Next.js"],
   authors: [{ name: portfolio.name }],
@@ -40,6 +37,9 @@ export const metadata: Metadata = {
     follow: true,
   },
   metadataBase: new URL("https://anshuman-giri.vercel.app"),
+  icons:{
+    icon:'/a.svg',
+  },
 };
 
 export default function RootLayout({
