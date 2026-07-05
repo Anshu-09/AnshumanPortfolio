@@ -89,7 +89,7 @@ export const portfolio = {
       platform: "CodeChef",
       handle: "@username",
       href: "https://www.codechef.com",
-      rating: 00,
+      rating: null,
       rank: "--",
       stats: [
         { label: "Rating", value: "00" },
@@ -103,7 +103,7 @@ export const portfolio = {
       platform: "Codeforces",
       handle: "@username",
       href: "https://codeforces.com",
-      rating: 00,
+      rating: null,
       rank: "--",
       stats: [
         { label: "Rating", value: "00" },
